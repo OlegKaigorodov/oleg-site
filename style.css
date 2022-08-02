@@ -1,20 +1,19 @@
 :root {
-  --primary-color:#FFFFFF;
-  --secondary-color: #0D2843;
-  --button-color-text:#5297FA;
-  --color-block-2:#E5E5E5;
-  --color-small-text: #0D2843;
-  --color-small-blue-cirle: #31D4DE;
-  --color-small-dark-blue-circle: #529AFE;
-  --color-small-purple-circle: #8959EF;
+  --white:#FFFFFF;
+  --blue-zodiac: #0D2843;
+  --cornflower-blue:#5297FA;
+  --mercury:#E5E5E5;
+  --turquoise: #31D4DE;
+  --dodger-blue: #529AFE;
+  --cornflower-blue: #8959EF;
   --color-background:linear-gradient(180deg, #4B95FA 0%, #CD4BFA 100%);
-  --black-color: #000000;
+  --black: #000000;
 }
 
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-  color: var(--primary-color);
+  color: var(--white);
   background: linear-gradient(180deg, #4B95FA 0%, #CD4BFA 100%);
 }
 
@@ -84,14 +83,14 @@ h1, h2, h3, h4, h5, h6{
   display: inline-block;
   vertical-align: top;
   margin: 0 35px;
-  color: var(--primary-color);
+  color: var(--white);
   text-decoration: none;
   transition: all .2s linear;
   opacity: 0.7;
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--white);
   opacity: 1;
 }
 
@@ -104,7 +103,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .login {
-  color: var(--primary-color);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -113,8 +112,8 @@ h1, h2, h3, h4, h5, h6{
   font-size: 16px;
   border-radius: 4px;
   padding: 18px 36px;
-  color: var(--button-color-text);
-  background-color: var(--primary-color);
+  color: var(--cornflower-blue);
+  background-color: var(--white);
   border: none;
   cursor: pointer;
 }
@@ -159,15 +158,14 @@ h1, h2, h3, h4, h5, h6{
 
 .download {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 179px;
   height: 62px;
   gap: 10px;
   background-color: transparent;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--white);
+  border: 1px solid var(--white);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
@@ -185,8 +183,8 @@ h1, h2, h3, h4, h5, h6{
   height: 62px;
   margin-left: 28px;
   background-color: transparent;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--white);
+  border: 1px solid var(--white);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
@@ -195,20 +193,17 @@ h1, h2, h3, h4, h5, h6{
   cursor: pointer;
 }
 
-
 .download:hover {
-  background-color: var(--primary-color);
-  color:var(--button-color-text);
+  background-color: var(--white);
+  color:var(--cornflower-blue);
 }
 
 .abapp:hover {
-  background-color: var(--primary-color);
-  color:var(--button-color-text);
+  background-color: var(--white);
+  color:var(--cornflower-blue);
 }
 
-
 /*images phones*/
-
 .image-phone{
   display: flex;
   position: absolute;
@@ -245,8 +240,8 @@ contanier-1{
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: var(--color-block-2);
-  color: var(--black-color);
+  background-color: var(--mercury);
+  color: var(--black);
 }
 
 .group h2 {
@@ -255,7 +250,7 @@ contanier-1{
   font-size: 49px;
   font-weight: 800;
   line-height: 120%;
-  color: var(--color-small-text);
+  color: var(--blue-zodiac);
 }
 
 .outline-cont{
@@ -266,7 +261,7 @@ contanier-1{
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: var(--color-small-text);
+  color: var(--blue-zodiac);
   opacity: 0.6;
 }
 
@@ -275,7 +270,7 @@ contanier-1{
   justify-content: center;
   gap: 300px;
   margin-top: 50px;
-  color: var(--color-small-text);
+  color: var(--blue-zodiac);
 }
 
 .small-text-1{
@@ -289,7 +284,7 @@ contanier-1{
   gap: 70px;
   width: 1100px;
   height: 52px;
-  color: var(--color-small-text);
+  color: var(--blue-zodiac);
   opacity: 0.6;
 }
 
@@ -313,7 +308,7 @@ contanier-1{
 .white-circle {
   width: 30px;
   height: 30px;
-  border: 50px solid var(--primary-color);
+  border: 50px solid var(--white);
   border-radius: 50px;
   box-shadow: 14px 13px 40px rgba(0, 0, 0, 0.07);
   margin-right: 789px;
@@ -328,7 +323,7 @@ contanier-1{
 .blue-small-circle {
   display: flex;
   position: absolute;
-  border: 35px solid var(--color-small-blue-cirle);
+  border: 35px solid var(--turquoise);
   border-radius: 35px;
   margin-top: -45px;
   margin-left: 25px;
@@ -347,7 +342,7 @@ contanier-1{
 .dark-blue-small-circle {
   display: flex;
   position: absolute;
-  border: 35px solid var(--color-small-dark-blue-circle);
+  border: 35px solid var(--dodger-blue);
   border-radius: 35px;
   margin-top: -45px;
   margin-left: 25px;
@@ -372,7 +367,7 @@ contanier-1{
 .purple-small-circle {
   display: flex;
   position: absolute;
-  border: 35px solid var(--color-small-purple-circle);
+  border: 35px solid var(--cornflower-blue);
   border-radius: 35px;
   margin-top: -44px;
   margin-left: 380px;
@@ -387,9 +382,9 @@ contanier-1{
   position: absolute;
   width: 100%;
   height: 200vh;
-  background-color: var(--color-block-2);
+  background-color: var(--mercury);
   margin-top: 670px;
-  color: var(--secondary-color);
+  color: var(--blue-zodiac);
 }
 
 .list h2 {
@@ -438,13 +433,13 @@ ol .gbt::before {
   left: -38px;
   width: 30px;
   height: 30px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--blue-zodiac);
+  color: var(--white);
   text-align: center;
   line-height: 28px;
   font-size: 18px;
   border-radius: 50%;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--blue-zodiac);
   margin-top: 30px;
   margin-left: 35px;
 }
@@ -472,13 +467,13 @@ ol .gbt::after {
   left: -38px;
   width: 30px;
   height: 30px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--blue-zodiac);
+  color: var(--white);
   text-align: center;
   line-height: 28px;
   font-size: 18px;
   border-radius: 50%;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--blue-zodiac);
   margin-top: 145px;
   margin-left: 35px;
 }
@@ -502,9 +497,9 @@ ol .gbt::after {
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: var(--color-block-2);
+  background-color: var(--mercury);
   margin-top: 1700px;
-  color: var(--secondary-color);
+  color: var(--blue-zodiac);
 }
 
 .section-4 {
@@ -556,8 +551,8 @@ ol .gbt::after {
   width: 158.23px;
   height: 62px;
   border-radius: 4px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--blue-zodiac);
+  color: var(--white);
   font-weight: 700;
   font-size: 16px;
   line-height: 160%;
@@ -584,9 +579,9 @@ ol .gbt::after {
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: var(--color-block-2);
+  background-color: var(--mercury);
   margin-top: 1700px;
-  color: var(--secondary-color);
+  color: var(--blue-zodiac);
   margin-top: 2370px;
 }
 
@@ -623,7 +618,6 @@ ol .gbt::after {
   margin-top: 350px;
 }
 
-
 .elem-grad {
   display: flex;
   position: absolute;
@@ -646,7 +640,7 @@ ol .gbt::after {
   line-height: 160%;
   text-align: center;
   opacity: 0.6;
-  color: var(--black-color);
+  color: var(--black);
   margin-top: 128px;
 }
 
@@ -656,7 +650,7 @@ ol .gbt::after {
   font-size: 20px;
   line-height: 140%;
   text-align: center;
-  color: var(--black-color);
+  color: var(--black);
   margin-top: 230px;
 }
 
@@ -665,7 +659,7 @@ ol .gbt::after {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: var(--black-color);
+  color: var(--black);
   margin-top: 280px;
   opacity: 0.6;
 }
@@ -706,7 +700,7 @@ ol .gbt::after {
   line-height: 160%;
   text-align: center;
   opacity: 0.6;
-  color: var(--black-color);
+  color: var(--black);
   margin-top: 128px;
 }
 
@@ -716,7 +710,7 @@ ol .gbt::after {
   font-size: 20px;
   line-height: 140%;
   text-align: center;
-  color: var(--black-color);
+  color: var(--black);
   margin-top: 230px;
 }
 
@@ -725,7 +719,7 @@ ol .gbt::after {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: var(--black-color);
+  color: var(--black);
   margin-top: 280px;
   opacity: 0.6;
 }
@@ -744,14 +738,13 @@ ol .gbt::after {
   gap: 40px;
 }
 
-
 .next-section-1 {
   position: absolute;
   width: 100%;
   height: 150vh;
-  background-color: var(--color-block-2);
+  background-color: var(--mercury);
   margin-top: 1700px;
-  color: var(--secondary-color);
+  color: var(--blue-zodiac);
   margin-top: 600px;
 }
 
@@ -797,7 +790,7 @@ ol .gbt::after {
   align-items: center;
   padding: 18px 25px;
   gap: 10px;
-  background: var(--primary-color);
+  background: var(--white);
   border: 1px solid rgba(13, 40, 67, 0.3);
   border-radius: 4px;
   font-weight: 700;
@@ -808,8 +801,8 @@ ol .gbt::after {
 }
 
 .DA:hover {
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--blue-zodiac);
+  color: var(--white);
 }
 
 .AA {
@@ -819,7 +812,7 @@ ol .gbt::after {
   align-items: center;
   padding: 18px 36px;
   gap: 10px;
-  background: var(--primary-color);
+  background: var(--white);
   border: 1px solid rgba(13, 40, 67, 0.3);
   border-radius: 4px;
   font-weight: 700;
@@ -830,8 +823,8 @@ ol .gbt::after {
 }
 
 .AA:hover {
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--blue-zodiac);
+  color: var(--white);
 }
 
 .footer {
@@ -858,7 +851,7 @@ ol .gbt::after {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: var(--primary-color);
+  color: var(--white);
   opacity: 0.7;
   margin-top: 190px;
   margin-left: 264.33px;
@@ -868,7 +861,7 @@ ol .gbt::after {
   display: flex;
   position: absolute;
   margin-left: 600px;
-  color: var(--primary-color);
+  color: var(--white);
   margin-top: 10px;
   text-align: left;
   border-spacing: 110px 40px;
@@ -898,7 +891,7 @@ ol .gbt::after {
 .twit {
   width: 36px;
   height: 36px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 4px;
   opacity: 1;
 }
@@ -912,7 +905,7 @@ ol .gbt::after {
 .faceb {
   width: 36px;
   height: 36px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 4px;
   opacity: 1;
 }
@@ -926,7 +919,7 @@ ol .gbt::after {
 .in {
   width: 36px;
   height: 36px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 4px;
   opacity: 1;
 }
@@ -943,9 +936,9 @@ ol .gbt::after {
   position: absolute;
   width: 4.16px;
   height: 4.16px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
-  background: var(--primary-color);
+  background: var(--white);
   margin: 181px 178px 0px;
 }
 
@@ -954,9 +947,9 @@ ol .gbt::after {
   position: absolute;
   width: 12.48px;
   height: 12.48px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
-  background: var(--primary-color);
+  background: var(--white);
   margin: 740px 61px 0px;
 }
 
@@ -965,7 +958,7 @@ ol .gbt::after {
   position: absolute;
   width: 27px;
   height: 27px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 450px 202px 0px;
 }
@@ -975,8 +968,8 @@ ol .gbt::after {
   position: absolute;
   width: 16.64px;
   height: 16.64px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 137px 444.18px 0px;
 }
@@ -986,8 +979,8 @@ ol .gbt::after {
   position: absolute;
   width: 75px;
   height: 75px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 300px 679px 0px;
 }
@@ -997,8 +990,8 @@ ol .gbt::after {
   position: absolute;
   width: 38px;
   height: 38px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 350px -12px 0px;
 }
@@ -1008,7 +1001,7 @@ ol .gbt::after {
   position: absolute;
   width: 250px;
   height: 250px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 260px 117px 0px;
 }
@@ -1018,8 +1011,8 @@ ol .gbt::after {
   position: absolute;
   width: 34px;
   height: 34px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 260px 350px 0px;
 }
@@ -1029,8 +1022,8 @@ ol .gbt::after {
   position: absolute;
   width: 16px;
   height: 16px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 840px 1476px 0px;
 }
@@ -1040,8 +1033,8 @@ ol .gbt::after {
   position: absolute;
   width: 20.8px;
   height: 20.8px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   margin: 1200px 1410px 0px;
 }
 
@@ -1050,7 +1043,7 @@ ol .gbt::after {
   position: absolute;
   width: 71px;
   height: 71px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   margin: -5px 220px 0px;
 }
 
@@ -1073,7 +1066,7 @@ ol .gbt::after {
 	height: 0;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
-	border-bottom: 20px solid var(--primary-color);
+	border-bottom: 20px solid var(--white);
   margin: 1060px 1100px 0px;
 }
 
@@ -1115,8 +1108,8 @@ ol .gbt::after {
   position: absolute;
   width: 38px;
   height: 38px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 560px 875px 0px;
   z-index: 1;
@@ -1127,8 +1120,8 @@ ol .gbt::after {
   position: absolute;
   width: 34px;
   height: 34px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 280px 1150px 0px;
   z-index: 1;
@@ -1139,7 +1132,7 @@ ol .gbt::after {
   position: absolute;
   width: 177px;
   height: 177px;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--white);
   border-radius: 50%;
   margin: 540px 1037px 0px;
   z-index: 1;
@@ -1190,8 +1183,8 @@ ol .gbt::after {
   position: absolute;
   width: 38px;
   height: 38px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 400px 622px 0px;
   z-index: 1;
@@ -1202,8 +1195,8 @@ ol .gbt::after {
   position: absolute;
   width: 34px;
   height: 34px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 110px 360px 0px;
   z-index: 1;
@@ -1214,7 +1207,7 @@ ol .gbt::after {
   position: absolute;
   width: 196px;
   height: 196px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 340px 330px 0px;
   z-index: 1;
@@ -1232,7 +1225,7 @@ ol .gbt::after {
   position: absolute;
   width: 17px;
   height: 17px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 62px 96px 0px;
   z-index: 1;
@@ -1243,7 +1236,7 @@ ol .gbt::after {
   position: absolute;
   width: 75px;
   height: 75px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 191px 270px 0px;
   z-index: 1;
@@ -1254,7 +1247,7 @@ ol .gbt::after {
   position: absolute;
   width: 89px;
   height: 89px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 19px 1180px 0px;
   z-index: 1;
@@ -1265,7 +1258,7 @@ ol .gbt::after {
   position: absolute;
   width: 17px;
   height: 17px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 227px 1440px 0px;
   z-index: 1;
@@ -1344,7 +1337,7 @@ ol .gbt::after {
   position: absolute;
   width: 200px;
   height: 200px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 150px -61px 0px;
   z-index: 1;
@@ -1355,8 +1348,8 @@ ol .gbt::after {
   position: absolute;
   width: 9px;
   height: 9px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 41px 553px 0px;
   z-index: 1;
@@ -1367,8 +1360,8 @@ ol .gbt::after {
   position: absolute;
   width: 5px;
   height: 5px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 256px 656px 0px;
   z-index: 1;
@@ -1379,7 +1372,7 @@ ol .gbt::after {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--white);
   border-radius: 50%;
   margin: 279px 1185px 0px;
   z-index: 1;
@@ -1390,8 +1383,8 @@ ol .gbt::after {
   position: absolute;
   width: 5px;
   height: 5px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 40px 1405px 0px;
   z-index: 1;
@@ -1402,8 +1395,8 @@ ol .gbt::after {
   position: absolute;
   width: 26px;
   height: 26px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 217px 1392px 0px;
   z-index: 1;
@@ -1414,8 +1407,8 @@ ol .gbt::after {
   position: absolute;
   width: 75px;
   height: 75px;
-  border: 1px solid var(--primary-color);
-  background: var(--primary-color);
+  border: 1px solid var(--white);
+  background: var(--white);
   border-radius: 50%;
   margin: 15px 1480px 0px;
   z-index: 1;
